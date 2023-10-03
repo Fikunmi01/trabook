@@ -1,0 +1,188 @@
+.GeneralFlex {
+    display: flex;
+    background-color: #F7F8FC;
+    padding-left: 5%;
+    justify-content: center;
+    padding-top: 10%;
+    position: relative;
+}
+
+
+
+.GeneralFlex .swiper-button-prev {
+    width: 100%;
+    top: 15rem;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Btn1.png);
+}
+
+.GeneralFlex .swiper-button-prev::after {
+    display: none;
+}
+
+.GeneralFlex .swiper-button-next {
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 15rem;
+    left: 58rem;
+    background-image: url(../Images/Btn2.png);
+}
+
+.GeneralFlex .swiper-button-next::after {
+    display: none;
+}
+
+.flex1 {
+    width: 50%;
+}
+
+.flex1 h2 {
+    font-family: 'Volkhov', serif;
+    color: #222222;
+    font-size: 4.4rem;
+    width: 60%;
+}
+
+.flex1 p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+    width: 51%;
+    color: #666666;
+    font-family: 'Poppins',sans-serif;
+}
+
+.ww {
+    width: 100%;
+}
+
+.element {
+    position: absolute;
+    width: 8.9%;
+    right: 7.4%;
+}
+
+.flex1 img {
+    cursor: pointer;
+}
+
+.GeneralFlex .mySwiper {
+    width: 50%;
+}
+
+/* Extra small devices (phones, 600px and down */
+@media only screen and (max-width: 600px) {
+    .flex1 {
+        width: 50%;
+    }    
+    .GeneralFlex{
+        padding-bottom: 5%;
+    }
+    .flex1 h2 {
+        font-size: 250%;
+        width: 16rem;
+    }
+    .flex1 p {
+        font-size: 100%;
+        width: 100%;
+        line-height: 1.8;
+    }
+    .GeneralFlex .mySwiper {
+        width: 90%;
+        height: 100%;
+    }
+
+     .GeneralFlex .swiper-button-prev {
+        width: 18%;
+        top: 80%;
+        left: 12%;
+    }
+
+    .GeneralFlex .swiper-button-next {
+        width: 18%;
+        top: 80%;
+        left: 30%;
+    }
+
+
+}
+
+/* Small devices (potrait tablets and large phone, 600px and up */
+@media only screen and (min-width: 600px) {
+    .flex1 h2 {
+        width: 95%;
+        font-size: 270%;
+    }
+    .flex1 p {
+        font-size: 128%;
+        width: 95%;
+    }
+    .GeneralFlex .mySwiper {
+        width: 100%;
+    }
+    .GeneralFlex {
+        height: 30rem;
+    }
+    .GeneralFlex .swiper-button-next {
+        left: 30%;
+        top: 49%;
+        width: 10%;
+        margin-top: 1%;
+
+    }
+    .GeneralFlex .swiper-button-prev {
+        top: 49%;
+        width: 10%;
+        margin-top: 1%;
+        left: 15%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up */
+@media only screen and (min-width: 768px) {
+    .GeneralFlex {
+        height: 100%;
+    }
+    .flex1 h2 {
+        font-size: 350%;
+        width: 100%;
+    }
+    .flex1 p {
+        font-size: 150%;
+        width: 90%;
+    }
+    .GeneralFlex .swiper-button-next {
+        left: 23%;
+        top: 54%;
+        margin-top: 8%;
+        width: 9%;
+    }
+    .GeneralFlex .swiper-button-prev {
+        top: 54%;
+        width: 9%;
+        margin-top: 8%;
+        left:13%;
+    }
+}
+
+/* Large devices (Laptops/desktops, 992px and up */
+@media only screen and (min-width: 992px) {
+    .GeneralFlex {
+        /* height: 40rem; */
+        padding-bottom: 5%;
+    }
+    .flex1 h2 {
+        font-size: 450%;
+    }
+    .flex1 p {
+        font-size: 200%;
+        width: 80%;
+    }
+    .GeneralFlex .swiper-button-next{
+        top: 22%;
+        left: 90%;
+    }
+    .GeneralFlex .swiper-button-prev {
+        top: 22%;
+        left: 4%;
+    }
+}

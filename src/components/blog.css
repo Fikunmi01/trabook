@@ -1,0 +1,146 @@
+:root {
+    --swiper-theme-color: #FA7436
+}
+.blog-heading h2 {
+    font-size: 3.4rem;
+    color: #222222;
+    font-family: 'Volkhov',serif;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.blog-heading span {
+    color: #FA7436; 
+}
+
+.blog {
+    position: relative;
+    background-color: #FEFCFB;
+    height: 75rem;
+}
+
+.blog-card {
+    display: inline-block;
+    border-radius: 0.8rem;
+}
+
+.main-blog {
+    padding-top: 16rem;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-img  {
+    width: 20rem;
+}
+
+.card-details {
+    padding-top: 1rem;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    width: 20rem;
+}
+
+.blog-heading {
+    height: 5rem;
+    font-size: 1.4rem;
+    color: #222222;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.swiper {
+    height: 42rem;
+}
+
+.swiper-pagination-bullet {
+    color: #FA7436;
+}
+.blog-head-p {
+    color: #222222;
+    font-size: 1.4rem;
+    width: 85%;
+}
+
+
+/* Extra small devices (phones, 600px and down */
+@media only screen and (max-width: 600px) {
+    .main-blog {
+        padding-left: 2.5%;
+        width: 100%;
+    }
+    .slider-img img {
+        width: 100%;
+    }
+    .card-details .blog-heading{
+        font-size: 130%;
+        height: 4rem;
+        width: 80%;
+    }
+    .date {
+        line-height: 3;
+    }
+    .card-details {
+        width: 94%;
+        margin: auto;
+    }
+ 
+    .blog-heading h2 {
+        font-size: 160%;
+        width: 100%;
+    }
+}
+
+/* Small devices (potrait tablets and large phone, 600px and up */
+@media only screen and (min-width: 600px) {
+    .main-blog {
+        padding-left: 2.5%;
+    }
+    .card-details .blog-heading{
+        font-size: 150%;
+        width: 100%;
+    }
+    .card-details {
+        width: 94%;
+        margin: auto;
+    }
+    .blog-card {
+        gap: 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up */
+@media only screen and (min-width: 768px) {
+    .main-blog {
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+    }
+    .slider-img img {
+        width: 100%;
+    }
+    .card-details .blog-heading {
+        font-size: 138%;
+        width: 90%;
+    }
+}
+
+/* Large devices (Laptops/desktops, 992px and up */
+@media only screen and (min-width: 992px) {
+    .card-details .blog-heading {
+        font-size: 150%;
+        width: 90%;
+    }
+    .slider-img img{
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up */
+@media only screen and (min-width: 1200px) {
+    
+}

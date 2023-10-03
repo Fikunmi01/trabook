@@ -1,0 +1,228 @@
+.prices {
+    background-color: #FEFCFB;
+    padding-top: 8rem;
+    height: 60rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.pricesCard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.cardImg img {
+    width: 18rem;
+    border-radius: 0.8rem;
+}
+
+.cardInfo h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 3.4rem;
+    color: #222222;
+}
+
+.head span {
+    color: #FA7436;
+}
+
+.head P {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    width: 24%;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+    word-break: break-all;
+}
+
+.generalCard {
+    border: 0.1rem solid #E5E5E5;
+    border-radius: 0.9rem 0.9rem 0.5rem 0.5rem;
+    height: 28rem;
+    background: #FEFCFB;
+    /* box-shadow: 0px 16px 80px rgba(254, 147, 94, 0.2); */
+
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.4rem;
+    align-items: center;
+    
+} 
+
+.cardInfo img {
+    width: 100%;
+    padding-right: 0.5rem;
+    height: 100%;
+}
+
+.orderButton {
+    position: absolute;
+    top: 14rem;
+    margin-left: -13.5rem;
+    color: #ffffff;
+    background-color: #FA7436;
+    border: 0.1rem solid #FA7436;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top:0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    
+}
+
+.cardImg :hover {
+    box-shadow: 0px 16px 80px rgba(254, 147, 94, 0.2);    
+}
+
+.orderButton:hover {
+    visibility: visible;
+}
+.cardInfo p {
+    font-size: 1.2rem;
+    color: #E5E5E5;
+    font-weight: 100;
+    padding-right: 1.3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardInfo p img {
+    width: 1.2rem;
+}
+
+.priceDetails {
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+.priceAmount {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.priceDetails p {
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+
+.priceDetails img {
+    padding-right: 0.5rem;
+    width: 1rem;
+}
+
+.priceAmount p {
+    color: #E5E5E5;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+#fillPrice {
+    color: #FA7436;
+    background-color: rgba(250, 116, 54, 0.3);
+    padding: 0.1rem 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.slider {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 10%;
+}
+
+/* Extra small devices 600px and down */
+@media screen and (max-width:600px) {
+
+    .generalCard {
+        width: 20rem;
+        margin: auto;
+    }
+    .head h2 {
+        font-size: 250%;
+    }
+    .head p {
+        width: 32.3rem;
+    }
+    .generalCard .cardImg img {
+        width: 100%;
+    }
+}
+
+/* Small device phone,600px and up */
+@media screen and (min-width:600px) {
+    .pricesCard .swiper-slide {
+        padding-left: 2%;
+    }
+
+    .generalCard .cardImg{
+        /* background-color: orange; */
+        /* width: 100%; */
+    }
+    .head p {
+        width: 33rem;
+    }
+  
+    .generalCard {
+        height: auto;
+        width: 18rem;
+        margin: auto;
+        padding-bottom: 3%;
+    }
+ 
+}
+
+/* Landscape devices and tablet 768px and up */
+@media screen and (min-width:768px) {
+    .generalCard {
+        width: 80%;
+        height: auto;
+        padding-bottom: 6%;
+    }
+    .generalCard .cardImg {
+        width: 100%;
+    }
+
+    .generalCard .cardImg img {
+        width: 100%;
+    }
+
+    .orderButton {
+        right: 32%;
+    }
+}
+
+/* Laptops and desktop 992px and up */
+@media screen and (min-width:992px) {
+}

@@ -1,0 +1,149 @@
+.navbar {
+    background-color: #FEFCFB;
+    position: relative;
+    height: 7rem;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+#desktop-ul li {
+    display: inline;
+    padding-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #222222;
+}
+
+h3 {
+    font-family: 'Volkhov', serif;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+Button{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    gap: 2rem;
+}
+
+.uil-bars {
+    display: none;
+}
+
+.mobile-menu {
+    position: absolute;
+    width: 100%;
+    top: 5rem;
+    padding-top: 8%;
+    text-align: center;
+    background-color: #F7F8FC;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.mobile-menu li {
+    font-size: 1.8rem;
+    line-height: 3;
+}
+.mobile-menu .mobile-navButton {
+    margin-top: 4rem;
+}
+
+@media screen and (min-width:600px) {
+    .mobile-menu {
+        position: absolute;
+        width: 100%;
+        top: 5rem;
+        background-color: #F7F8FC;
+        height: 100vh;
+    }
+    .uil-times {
+        cursor:'pointer'; 
+        position:'fixed';
+        top:'2rem'; 
+        font-size:'4rem';
+        right:'1rem';
+    }
+    .uil-bars {
+        display: block;
+        font-size: 2.5rem;
+        position: relative;
+        color: #222222;
+    }
+    .mobile-menu li {
+        display: block;
+    }
+    .mobile-menu ul {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .uil-bars {
+        display: none;
+    }
+    #desktop-ul li {
+        font-size: 120%;
+    }
+    .desktop-nav .navButton .noBorder {
+        font-size: 130%
+    }
+    .desktop-nav .navButton .fillButton {
+        font-size: 130%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #desktop-ul li {
+        font-size: 180%;
+    }
+    .desktop-nav .navButton .noBorder {
+        font-size: 160%;
+    }
+    .desktop-nav .navButton .fillButton {
+        font-size: 160%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h3 {
+        width: 70%;
+    }
+    #desktop-ul {
+        display: none;
+    }
+
+    .navbar ul {
+        visibility: visible;
+    }
+    
+    .navButton {
+        display: none;
+    }
+    .navbar {
+        padding-left: 1.8%;
+        padding-top: 3%;
+        padding-right: 1.8%;
+    }
+    .uil-bars {
+        display: block;
+        font-size: 2.5rem;
+        right: 1rem;
+        position: relative;
+        color: #222222;
+    }
+}

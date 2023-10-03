@@ -1,0 +1,247 @@
+.hero {
+    background-color: #FEFCFB;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+}
+
+.container {
+    display: flex;
+}
+
+.flexOne {
+    padding-top: 10%;
+    width: 50%;
+}
+
+.flexOne span {
+    color: #FA7436;
+}
+
+.flexOne h1 {
+    font-size: 6.7rem;
+    color: #222222;
+    font-family: 'Volkhov', serif;
+    width: 100%;
+}
+
+.flexOne p {
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    color: #666666;
+}
+
+.flexOne button {
+    margin-left: 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.flexTwo {
+    width: 50%;
+}
+.flexTwo img {
+    width: 54rem;
+}
+
+.book-form {
+    background-color: #FFFFFF;
+    color: #222222;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 80rem;
+    margin: auto;
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    justify-content: center;
+}
+
+.book-form label {
+    font-size: 1.6rem;
+}
+
+.book-form input {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.3rem;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.6rem;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.book-form input:placeholder-shown {
+    font-size: 1.5rem;
+}
+
+.book-form button {
+    padding: 1rem;
+    background-color: #FA7436;
+    border-radius: 0.4rem;
+    color: #fff;
+    border: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .flexOne h1 {
+        font-size: 250%;
+    }
+
+    .flexOne p {
+        font-size: 120%;
+    }
+
+    .flexOne {
+        width: 50%;
+        padding-top: 1%;
+    }
+
+    h3 {
+        padding-left: 2%;
+    }
+    
+    .flexOne button {
+        padding: 3%;
+    }
+    
+    .hero {
+        padding-left: 4%;
+        padding-right: 0;
+    }
+    
+    .flexTwo img {
+        width: 100%;
+    }
+    
+    .book-form{
+        width: 85%;
+        padding-left: 5%;
+        margin-left: 4%;
+    }
+    
+    .button {
+        padding-right: 2rem;
+    }
+
+    .book-form button {
+        font-size: 100%;
+    }
+    
+    .book-form input:placeholder-shown {
+        font-size: 100%;
+        font-size: 1.1rem;
+        margin-left: -3%;
+    }
+    
+    .book-form label {
+        font-size: 1.4rem;
+    }
+    
+    .book-form input {
+        outline: none;
+    }
+   
+ 
+}
+
+
+@media screen and (max-width:600px) {
+    .flexOne h1 {
+        font-size: 250%;
+    }
+
+    .flexOne p {
+        font-size: 120%;
+    }
+
+    .flexOne {
+        width: 50%;
+        padding-top: 1%;
+    }
+
+    h3 {
+        padding-left: 2%;
+    }
+    
+    .flexOne button {
+        padding: 3%;
+    }
+    
+    .hero {
+        padding-left: 4%;
+        padding-right: 0;
+    }
+    
+    .flexTwo img {
+        width: 100%;
+    }
+    
+    .book-form{
+        width: 85%;
+        padding-left: 5%;
+        margin-left: 4%;
+    }
+    
+    .button {
+        padding-right: 2rem;
+    }
+
+    .book-form button {
+        font-size: 100%;
+    }
+    
+    .book-form input:placeholder-shown {
+        font-size: 100%;
+        font-size: 1.1rem;
+        margin-left: -3%;
+    }
+    
+    .book-form label {
+        font-size: 1.4rem;
+    }
+    
+    .book-form input {
+        outline: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .flexOne h1 {
+        font-size: 350%;
+        width: 100%;
+    }
+
+    .flexOne p {
+        font-size: 150%;
+        width: 100%;
+    }
+    .flexTwo img {
+        width: 100%;
+    }
+    .book-form {
+        width: 90%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .flexOne h1 {
+        font-size: 450%;
+        width: 80%;
+    }
+    .flexOne p {
+        width: 70%;
+        font-size: 155%;
+    }
+}

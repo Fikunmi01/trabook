@@ -1,0 +1,16 @@
+.homepage {
+    position: relative;
+
+}
+
+@media screen and (max-width:600px) {
+    .homepage {
+        /* height: 640vh; */
+        height: 431rem;
+        background-color: #F7F8FC;
+        padding-bottom: 11%;
+        /* width: 48.3rem; */
+        width: 100%;
+        overflow: hidden;
+    }
+}
